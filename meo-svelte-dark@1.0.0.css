@@ -88,7 +88,7 @@ input[type="text"]:not(.white):not(:disabled):hover, input[type="text"]:not(.whi
 	background-color: var(--orange-light) !important;
 	cursor: pointer;
 }
-.grip-theme {
+:root {
 	--primary: var(--orange);
 	--background: #202020;
 	--color: #f0f0f0;

@@ -1,0 +1,22 @@
+
+      .custom-theme {
+          --primary: #15a4c1;
+          --secondary: #0f788e;
+          --background: #1c1f26;
+          --color: #fefefe;
+          --accent-color: #2f3540;
+          --hov-accent-color: #353b49;
+          --hov-color: #414959;
+          --link-color: #00abd2;
+          --attachment-background-color: #094c5b;
+          --attachment-color: #15a4c1;
+          --attachment-background-color-hover: #15a4c1;
+          --attachment-color-hover: #fefefe;
+          --button-color: #a5abb3;
+          --hov-button-color: #fefefe;
+          --modal-color: #2f3540;
+          --modal-button-color: #414959;
+          --hov-modal-button-color: #4d576a;
+          --color-scheme: dark;
+      }
+    

@@ -1,0 +1,123 @@
+.trans svg {
+	display: none;
+}
+.trans {
+	border-radius: 1em !important;
+	border-bottom-width: 5px !important;
+	border: solid 2px var(--foreground-orange);
+	padding: .5em;
+	box-sizing: border-box;
+	overflow-wrap: break-word;
+	background-color: var(--orange) !important;
+	background: url(https://app.meower.org/assets/home-a6e91ee5.svg);
+	background-repeat: no-repeat;
+	background-size: calc(100% - ( 1em * 2 ));
+	/* padding: 1em; */
+	background-position: 1em;
+}
+/* container */
+.post, textarea, .section, .stg-section, .info, .theme-buttons, .example-msg,
+.attach-pre-outer, .download {
+	border-radius: 5px;
+	border: 2px var(--primary) solid;
+	background: transparent !important;
+	padding: .6em;
+	margin-bottom: .4em;
+}
+input[type="text"]:focus, input[type="search"]:focus, input[type="password"]:focus, textarea:focus {
+	border-radius: 2px;
+}
+input[type="text"].white:not(:disabled):hover,
+input[type="number"].white:not(:disabled):hover,
+input[type="password"].white:not(:disabled):hover,
+input[type="search"].white:not(:disabled):hover,
+textarea:not(:disabled):hover,
+input[type="text"].white:not(:disabled):active,
+input[type="number"].white:not(:disabled):active,
+input[type="password"].white:not(:disabled):active,
+input[type="search"].white:not(:disabled):active,
+textarea:not(:disabled):active,
+button:not(.circle, .language).white:not(:disabled):hover,
+input[type="text"].white:focus-visible,
+input[type="number"].white:focus-visible,
+input[type="password"].white:focus-visible,
+input[type="search"].white:focus-visible,
+textarea:focus-visible,
+button:not(.circle, .language).white:focus-visible {
+	border-color: var(--orange-light);
+}
+input[type="text"].white:not(:disabled):focus,
+input[type="password"].white:not(:disabled):focus,
+input[type="search"].white:not(:disabled):focus, textarea:focus,
+button:not(.circle, .language).white:active {
+	border-color: var(--orange-dark) !important;
+}
+.post:hover .buttonContainer {
+	background: none !important;
+}
+.button:not(.language.button) {
+	border: 2px var(--attachment-color-hover) solid;
+	border-radius: 5px !important;
+	background: var(--primary) !important;
+}
+.pfp-inner {
+	--size: 0.75;
+	background-color: var(--pfp-bg);
+	border: solid 1.5px var(--pfp-outline) !important;
+	border-radius: calc(var(--size) * 1.25em) !important;
+	border-bottom-width: 5px !important;
+	box-sizing: border-box;
+}
+.avatar {
+	width: calc(54px + 3px);;
+	height: calc(54px + 5px + 1.5px);
+	aspect-ratio: initial;
+}
+.avatar-small {
+	aspect-ratio: initial;
+	height: calc(36px + 5px + 1.5px);
+	width: calc(36px + 3px);
+	--size: 0.65;
+	box-shadow: none;
+}
+button:not(.circle, .language):not(.white):not(:disabled):hover,
+button:not(.circle, .language):not(.white):focus-visible,
+.button:not(.circle, .language):not(.white):not(:disabled):hover,
+.button:not(.circle, .language):not(.white):focus-visible,
+input[type="text"]:not(.white):not(:disabled):hover, input[type="text"]:not(.white):focus-visible, input[type="search"]:not(.white):not(:disabled):hover, input[type="search"]:not(.white):focus-visible, input[type="password"]:not(.white):not(:disabled):hover, input[type="password"]:not(.white):focus-visible {
+	background-color: var(--orange-light) !important;
+	cursor: pointer;
+}
+.grip-theme {
+	--primary: var(--orange);
+	--background: #202020;
+	--color: #f0f0f0;
+	--accent-color: #1f1e24;
+	--dark-accent: #111114;
+	--accent-down: #121116;
+	--hov-accent-color: #32313a;
+	--hov-color: #4a4854;
+	--link-color: #00abd2;
+	--attachment-background-color: #5b409b90;
+	--attachment-color: #bea2ff;
+	--attachment-background-color-hover: #765dee;
+	--attachment-color-hover: #fefefe;
+	--button-color: #a6a2ba;
+	--hov-button-color: #f0f0f0;
+	--modal-color: #1f1e24;
+	--modal-button-color: #32313a;
+	--hov-modal-button-color: #4a4854;
+	--accent-tint: #222127;
+	--hov-tint-color: #34333b;
+
+	--orange: #e48b26;
+	--orange-light: #f9a535;
+	--orange-dark: #ac5b18;
+	--orange-scrollbar-back: rgb(131, 45, 5);
+	--background: #181818;
+	--foreground: #eef;
+	--foreground-orange: #eef;
+
+	--pfp-bg: white;
+	--pfp-outline: #d9d9d9;
+}
